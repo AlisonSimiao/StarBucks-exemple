@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;;
+}
+
+.nav-bar{
+    display: flex;
+    align-self: center;
+    justify-content: space-between;
+    margin: 5vh 10vh;
+
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+.menu *{
+    display: inline-flex;
+    list-style: none;
+
+    padding-right: 30px;
+}
+
+
+.bola{
+    background-color: #2c7344;
+    position: absolute;
+    left: 100%;
+    top: 100%;
+    transform: translate(-50%,-50%);
+    height: 150vh;
+    width: 75%;
+    border-radius: 50%;
+}
+.redes-sociais{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    justify-content: space-around;
+    background-color: rgba(0, 0, 0, 0);
+    transform: translate(50%,-50%);
+}
+
+.redes-sociais:hover{
+    transform: translate(-40%,-50%);
+    transition: 1s;
+}
+.redes-sociais *{
+    list-style: none;
+    padding-top: 10px;
+}
+
+.copao{
+    position: relative;
+    top: -100px;
+    left: 0;
+    transform: scale(0.8) ;
+}
+.novos-produtos{
+    display: inline-block;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    left: 40%;
+    transform: scale(0.5);
+}
+
+.produtos *{
+    margin-left: 10px;
+}
+
+strong{
+    text-align-last: center;
+    color: #2c7442;
+}
+.logo{
+    width: 5%;
+    height: auto;
+    margin-top: -1vh;
+
+}
+
+.texto{
+    max-width: 50ch; 
+    font-size: 16px;
+    margin: 10vh 10vh;
+}
+
+.textao{
+    font-size: 50px;
+    font-family: serif;
+}
+
+.textinho-redondo{
+    font-size: 20px;
+    width: 140px;
+    height: 35px;
+    color: #fff;
+    background-color: #2c7442;
+    border-radius: 50px;
+    margin-top: 10px;
+    padding-top: 1%;
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
